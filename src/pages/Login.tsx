@@ -31,7 +31,7 @@ const Login: React.FC = () => {
                         <form onSubmit={dologin}>
                             <IonInput fill='outline' labelPlacement='floating' label="Email" type='email' placeholder='abc123@gmail.com'></IonInput>
                             <IonInput className="ion-margin-top" fill='outline' labelPlacement='floating' label="Password" type='password' ></IonInput>
-                            <IonButton className="ion-margin-top" type='submit' expand="block" >
+                            <IonButton routerLink='/blank' className="ion-margin-top" type='submit' expand="block" >
                                 Login 
                                 <IonIcon icon={logInOutline} slot="end" />
                                 </IonButton>
